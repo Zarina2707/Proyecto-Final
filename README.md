@@ -1,15 +1,17 @@
 # Proyecto-Final
 Integrantes: Zarina Fuentes, Laura Botero y Jhon Salazar
 
+#PARTE DE TEORIA
+
 *Parte 1- PROBLEMA DE REGRESION LINEAL*
 
-CONSULTAR LA IMPLEMENTACIÓN DEL REGRESOR LINEAL CON SKLEARN
+* CONSULTAR LA IMPLEMENTACIÓN DEL REGRESOR LINEAL CON SKLEARN
 
 R/=
 
 *Parte 2- PROBLEMA DE CLASIFICACION LINEAL*
 
-CONSULTAR LA IMPLEMENTACIÓN DEL PERCEPTRÓN SIMPLE CON SKLEARN
+* CONSULTAR LA IMPLEMENTACIÓN DEL PERCEPTRÓN SIMPLE CON SKLEARN
 
 R/= En sklearn, el percepton está implementado en la clase: from sklearn.linear_model import Perceptron. Es un algoritmo clásico de clasificación lineal que ajusta un hiperplano para separar dos clases (o más, usando estrategia one-vs-rest). 
 
