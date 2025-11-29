@@ -1,13 +1,13 @@
 # Proyecto-Final
 Integrantes: Zarina Fuentes, Laura Botero y Jhon Salazar
 
-Parte 1
+*Parte 1- PROBLEMA DE REGRESION LINEAL*
 
 CONSULTAR LA IMPLEMENTACIÓN DEL REGRESOR LINEAL CON SKLEARN
 
 R/=
 
-Parte 2
+*Parte 2- PROBLEMA DE CLASIFICACION LINEAL*
 
 CONSULTAR LA IMPLEMENTACIÓN DEL PERCEPTRÓN SIMPLE CON SKLEARN
 
@@ -18,6 +18,7 @@ El perceptrón en sklearn no escala automáticamente los datos; a veces conviene
 Es un algoritmo lineal: solo funciona bien si las clases son linealmente separables.
 
 *Parametros*
+
 max_iter: Número máximo de iteraciones sobre los datos
 
 eta0: Tasa de aprendizaje
