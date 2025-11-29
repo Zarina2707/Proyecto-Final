@@ -7,7 +7,27 @@ Integrantes: Zarina Fuentes, Laura Botero y Jhon Salazar
 
 * CONSULTAR LA IMPLEMENTACIÓN DEL REGRESOR LINEAL CON SKLEARN
 
-R/=
+R/= En sklearn, el modelo de regresión lineal clásica está implementado en: from sklearn.linear_model import LinearRegression
+Este modelo ajusta una ecuación del tipo: <img width="326" height="45" alt="image" src="https://github.com/user-attachments/assets/76aa7adc-af0c-439f-b6e9-4ae4dcf8dc84" />
+minimizando el error cuadrático medio (MSE).
+
+- La regresión lineal en sklearn no aplica regularización.
+Para regularización usa:
+
+   -Ridge (L2)
+
+   -Lasso (L1)
+
+   -ElasticNet (L1 + L2)
+
+- Es recomendable estandarizar los datos si tienen escalas muy distintas (con StandardScaler).
+  *Parametros claves*
+  
+  fit_intercept: Si calcula o no el intercepto.
+
+  copy_X: Si copia la matriz X o trabaja sobre ella directamente.
+
+  n_jobs: Número de CPUs para cálculo paralelo.
 
 *Parte 2- PROBLEMA DE CLASIFICACION LINEAL*
 
@@ -19,7 +39,7 @@ El perceptrón en sklearn no escala automáticamente los datos; a veces conviene
 
 Es un algoritmo lineal: solo funciona bien si las clases son linealmente separables.
 
-*Parametros*
+*Parametros claves*
 
 max_iter: Número máximo de iteraciones sobre los datos
 
